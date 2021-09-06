@@ -77,7 +77,8 @@ def lambda_handler(event, context):
         
         
     # cursor.execute('''insert into demo(id,name,salary) values(2,"raghu",50000)''')
-   
+    # cursor.execute("select * from demo")
+
     
     # cursor.executemany(mysql_insert,my_list)
     # cursor.execute("select * from weather")
