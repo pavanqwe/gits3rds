@@ -84,6 +84,7 @@ def lambda_handler(event, context):
     # cursor.execute("select * from weather")
     # res=cursor.fetchall()
     # print(res)
+    print("suceess")
     conn.commit()
 
         
