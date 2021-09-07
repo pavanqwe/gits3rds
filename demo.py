@@ -76,14 +76,7 @@ def lambda_handler(event, context):
         
         
         
-    # cursor.execute('''insert into demo(id,name,salary) values(2,"raghu",50000)''')
-    # cursor.execute("select * from demo")
-    # print(my_list)
-    
-    # cursor.executemany(mysql_insert,my_list)
-    # cursor.execute("select * from weather")
-    # res=cursor.fetchall()
-    # print(res)
+
     conn.commit()
 
         
@@ -92,9 +85,7 @@ def lambda_handler(event, context):
         
         
         
-        # print(item["clouds"]["all"])
-    # print(type(req_data[0]))
-    # dynamo.put_item(TableName='weather_bangalore',Item={req_data})
+
     
     return {
         'statusCode': 200,
